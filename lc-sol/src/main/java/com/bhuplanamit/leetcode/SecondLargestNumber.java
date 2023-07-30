@@ -9,6 +9,7 @@ public class SecondLargestNumber {
     public static void main(String[] args) {
         Integer arr[] = {9,10,11,12,56,13,1413};
         ArrayList<Integer> arr2 = (ArrayList) Arrays.stream(arr).sorted().collect(Collectors.toList());
+
         System.out.println(arr2.get(arr.length-2));
     }
 }
